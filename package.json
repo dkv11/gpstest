@@ -1,0 +1,32 @@
+{
+  "name": "gt06",
+  "version": "1.0.12",
+  "description": "Parses and creates responses for GT06 GPS tracker messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vondraussen/gt06.git"
+  },
+  "keywords": [
+    "GPS",
+    "Tracker",
+    "GT06"
+  ],
+  "devDependencies": {
+    "jest": ">=27.0.6"
+  },
+  "author": "Andy Hempel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vondraussen/gt06/issues"
+  },
+  "homepage": "https://github.com/vondraussen/gt06#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "gt06": "^1.0.12"
+  }
+}
